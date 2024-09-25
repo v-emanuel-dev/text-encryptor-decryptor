@@ -11,7 +11,7 @@ export class EncryptDecryptComponent {
   result: string = '';
   successMessage: string = ''; // Armazena a mensagem de sucesso
   errorMessage: string = '';   // Armazena a mensagem de erro
-  secretKey: string = 'mySecretKey123';
+  secretKey: string = 'U2FsdGVkX19NmtbTZ05PDvXaX6w7X71FcC1JqmtaWMM=';
 
   // Método para criptografar o texto usando AES
   encryptText(): void {
